@@ -1,0 +1,38 @@
+.kana-wrapper {
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
+    font-weight: 500;
+    color: #838383;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px #838383 solid;
+    border-radius: 20px;
+}
+
+.answer-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.answer {
+    font-size: 50px;
+    color: rgb(255, 128, 0);
+    font-weight: 500;
+}
+
+.show-answer {
+    font-size: 50px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 8px #ccc solid;
+    border-radius: 12px;
+    color: #ccc;
+    cursor: pointer;
+}
